@@ -1,0 +1,5 @@
+rank_bm25
+azure-functions
+unidecode
+nltk
+numpy

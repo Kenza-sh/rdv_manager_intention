@@ -8,6 +8,7 @@ import json
 import nltk
 from nltk.stem import SnowballStemmer
 nltk.download('stopwords')
+from nltk.corpus import stopwords
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)

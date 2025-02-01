@@ -115,13 +115,13 @@ class BM25Analyzer:
             best_score = scores[best_score_idx]
             
             if best_score < confidence_threshold:
-                return "indéterminé"
+                return "Intention inconnue"
             
             return self.category_mapping[best_score_idx]
         
         except Exception as e:
             logger.error(f"Erreur détection : {e}")
-            return "indéterminé"
+            return "Intention inconnue"
 
 
 # Utilisation
